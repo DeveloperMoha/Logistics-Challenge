@@ -43,5 +43,5 @@ To use this service:
 
 ```php
 $service = new OrderDistributionService();
-$assignments = $service->handleOrders($orders, $employees);
+$assignedOrders = $service->handleOrders();
 given example of 11 orders with existing 3 employees
